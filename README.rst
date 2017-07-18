@@ -2,6 +2,43 @@
 *Collection* Extension for MediaWiki
 ====================================
 
+About the OTS Vendor Branch of the *Collection* Extension
+=========================================================
+
+This is a "vendor branch" of the Collection extension, meaning it
+is a fork of an upstream release (Collection-REL1_28-6654fa8.tar.gz),
+with some modifications that are meant to be ported as new releases
+come out.
+
+The modifications were made by Open Tech Strategies, LLC (the
+"vendor"), and the vendor branch has two purposes:
+
+1) To help OTS keep track of our modifications;
+2) To publish our modifications so that others may benefit.
+
+https://github.com/OpenTechStrategies/Collection is the repository
+where we keep the vendor branch, "ots/mediawiki-1.28.2/prod".  It is
+the default branch there, that is, it is the branch you see by default
+(instead of "master") when you visit the repository's home page.
+
+Our vendor branch is based off of commit 6654fa83007 in
+https://gerrit.wikimedia.org/r/mediawiki/extensions/Collection, the
+original repository, since that commit was the basis for the release
+tarball Collection-REL1_28-6654fa8.tar.gz.  We use that release in
+some production wikis, and we had to make some modifications in order
+to get it working.  The commit history of the vendor branch shows all
+of those modifications.
+
+Please see also our notes on setting up the Collection extension in
+the OTS MacFound tools repository
+(https://github.com/OpenTechStrategies/MacFound/blob/master/README.md).
+Look for the section named *The "Collection" extension: printing PDF
+books from selected wiki pages*.  The extension required a lot of
+system tweaks to work, and we have documented those tweaks there.  (If
+we find out that those tweaks are indeed recommended by the upstream
+authors, we may move that documentation to this vendor branch.)
+
+
 About the *Collection* Extension
 ================================
 
