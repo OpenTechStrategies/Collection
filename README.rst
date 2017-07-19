@@ -8,7 +8,8 @@ About the OTS Vendor Branch of the *Collection* Extension
 This is a "vendor branch" of the Collection extension, meaning it
 is a fork of an upstream release (Collection-REL1_28-6654fa8.tar.gz),
 with some modifications that are meant to be ported as new releases
-come out.
+come out.  https://www.mediawiki.org/wiki/Extension:Collection is
+the upstream home page.
 
 The modifications were made by Open Tech Strategies, LLC (the
 "vendor"), and the vendor branch has two purposes:
