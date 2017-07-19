@@ -26,13 +26,11 @@ Our vendor branch is based off of commit 6654fa83007 in
 https://gerrit.wikimedia.org/r/mediawiki/extensions/Collection, the
 original repository, since that commit was the basis for the release
 tarball Collection-REL1_28-6654fa8.tar.gz.  We use that release in
-some production wikis, and we had to make some modifications in order
-to get it working.  The commit history of the vendor branch shows all
-of those modifications.
-
-Please see also our notes on setting up the Collection extension in
-the OTS MacFound tools repository
-(https://github.com/OpenTechStrategies/MacFound/blob/master/README.md).
+some production wikis, and we expect to make some modifications to it
+to customize output; the commit history of the vendor branch will show
+those modifications.  In the meantime, see our notes on setting up the
+Collection extension, in the OTS MacFound tools repository at
+https://github.com/OpenTechStrategies/MacFound/blob/master/README.md.
 Look for the section named *The "Collection" extension: printing PDF
 books from selected wiki pages*.  The extension required a lot of
 system tweaks to work, and we have documented those tweaks there.  (If
